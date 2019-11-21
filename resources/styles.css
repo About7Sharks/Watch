@@ -1,0 +1,63 @@
+text{
+  font-size:35;
+  fill:white;
+}
+.rokuRemote{
+  display:none;
+}
+
+
+#hideHealth{
+  display: none;
+}
+#msg{
+  x:1%;
+  y:43%;
+  font-size: 38;
+}
+#vitalsData{
+  x:12%;
+  y:27%;
+  font-size: 25;
+}
+#clock{
+  x:28%;
+  y:30%;
+  font-size: 90;
+  fill: #FC6B3A;
+}
+#batteryValue{
+  x:1%;
+  y:15%;
+  font-size: 30;
+}
+#distance{
+  x:63%;
+  y:96%;
+  font-size: 25;
+}
+#calories{
+  x:67%;
+  y:88%;
+  font-size: 25;
+}
+#fullDate{
+  y:56%;
+  x:1%;
+  font-size: 33;
+}
+#coinETH{
+  y:69%;
+  x:1%;
+  font-size: 25;
+}
+#coinBTC{
+  y:80%;
+  x:1%;
+  font-size: 25;
+}
+#weather{
+  x:2%;
+  y:95%;
+  font-size: 30;
+}

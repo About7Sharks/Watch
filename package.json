@@ -1,0 +1,41 @@
+{
+  "name": "watchapp",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~4.0.1",
+    "@fitbit/sdk-cli": "^1.7.0"
+  },
+  "fitbit": {
+    "appUUID": "fe92bc61-63b8-41d8-acf6-efbf50aa1689",
+    "appType": "clockface",
+    "appDisplayName": "Watchapp",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_activity",
+      "access_exercise",
+      "access_heart_rate",
+      "access_internet",
+      "access_location",
+      "access_user_profile",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  },
+  "dependencies": {
+    "myq-api": "0.0.2"
+  }
+}

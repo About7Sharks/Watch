@@ -1,0 +1,117 @@
+<svg>  
+ <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    <!-- Additional Imports -->
+    <link rel="import" href="/mnt/sysassets/widgets/push_button_widget.gui" />
+        <link rel="import" href="/mnt/sysassets/widgets/square_button_widget.gui" />
+
+  </defs>
+      <!-- <use  class='watchFace'id="mybutton" href="#push-button" y="65%" x="55%" width='20%' height="50"
+    fill="fb-peach" font-family="System-Regular" font-size="6">
+    <set href="#text" attributeName="text-buffer" 
+    to="Roku"/>
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use> -->
+ 
+  <text class='watchFace' id='msg' >Welcome, Sock ;)</text>
+  <text class='watchFace' id="batteryValue">69%</text>
+  <text class='watchFace' id='clock'>00:00</text>
+  <text class='watchFace' id="vitalsData">000</text>
+  <circle class='watchFace' cx="3%" cy="22%" r="8" fill="red" />
+  <circle class='watchFace' cx="6%" cy="22%" r="8" fill="red" />
+    <g class='watchFace' transform="rotate(45)">
+      <rect x="54" y="33" width="5%" height="5%" fill="red" />
+    </g>
+  <text class='watchFace' id='distance'>00.00 Miles</text> 
+  <text class='watchFace' id="fullDate">Today is Mon, Nov 10</text>
+  <text class='watchFace' id='weather'>--- -F</text>
+  <text class='watchFace' id='calories'>---- Cal</text>
+  <text class='watchFace' id='coinETH'>ETH: -------</text>
+  <text class='watchFace' id='coinBTC'>BTC: -------</text>
+
+ <use id="mybutton2" class='watchFace' href="#square-button-icon" y="56%"  width='20%' x='83%'>
+    <set href="#image" id='remoteIcon' attributeName="href" to="remote.png" />
+  </use>
+   <use id="health" class='watchFace' href="#square-button-icon" y="57%"  width='20%' x='63%'>
+    <set href="#image"  attributeName="href" to="running.png" />
+  </use>
+   <use id="hideHealth"  href="#square-button-icon" y="60%"  width='22%' x='50%'>
+    <set href="#image"  attributeName="href" to="running.png" />
+  </use>
+
+  <use class='rokuRemote'  id="watchButton" href="#push-button" y="5%" x="50%" width='50%' height="50"
+    fill="fb-purple" font-family="System-Regular" font-size="20">
+    <set href="#text" attributeName="text-buffer" 
+    to="Watch"/>
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+
+  <use class='rokuRemote'  id="playButton" href="#push-button" y="5%" x="0%" width='50%' height="50"
+    fill="fb-red" font-family="System-Regular" font-size="20">
+    <set href="#text" attributeName="text-buffer" 
+    to="Play/Pause"/>
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+    <use class='rokuRemote' id="selectButton" href="#push-button" y="45%" x="34%" width='33%' height="50"
+    fill="fb-blue" font-family="System-Regular" font-size="20">
+    <set href="#text" attributeName="text-buffer" 
+    to="Select"/>
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+    <use class='rokuRemote' id="upButton" href="#push-button" y="28%" x="34%" width='33%' height="50"
+    fill="fb-red" font-family="System-Regular" font-size="20">
+    <set href="#text" attributeName="text-buffer" 
+    to="Up"/>
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+     <use class='rokuRemote' id="downButton" href="#push-button" y="62%" x="34%" width='33%' height="50"
+    fill="fb-green" font-family="System-Regular" font-size="20">
+    <set href="#text" attributeName="text-buffer" 
+    to="Down"/>
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+   <use class='rokuRemote' id="leftButton" href="#push-button" y="45%" x="0%" width='33%' height="50"
+    fill="fb-green" font-family="System-Regular" font-size="20">
+    <set href="#text" attributeName="text-buffer" 
+    to="Left"/>
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+   <use class='rokuRemote' id="rightButton" href="#push-button" y="45%" x="67%" width='33%' height="50"
+    fill="fb-green" font-family="System-Regular" font-size="20">
+    <set href="#text" attributeName="text-buffer" 
+    to="Right"/>
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+   <use class='rokuRemote' id="backButton" href="#push-button" y="80%" x="34%" width='66%' height="50"
+    fill="fb-red" font-family="System-Regular" font-size="20">
+    <set href="#text" attributeName="text-buffer" 
+    to="Back"/>
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+    <use class='rokuRemote' id="volUpButton" href="#push-button" y="63%" x="0%" width='33%' height="50"
+    fill="fb-green" font-family="System-Regular" font-size="20">
+    <set href="#text" attributeName="text-buffer" 
+    to="Vol Up"/>
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+    <use class='rokuRemote' id="volDownButton" href="#push-button" y="80%" x="0%" width='33%' height="50"
+    fill="fb-red" font-family="System-Regular" font-size="20">
+    <set href="#text" attributeName="text-buffer" 
+    to="Vol Down"/>
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+
+</svg>
+ 
