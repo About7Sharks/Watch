@@ -35,7 +35,5 @@
     "build": "fitbit-build",
     "debug": "fitbit"
   },
-  "dependencies": {
-    "myq-api": "0.0.2"
-  }
+  "dependencies": {}
 }

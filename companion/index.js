@@ -1,7 +1,7 @@
 // Import the messaging module
 import * as messaging from "messaging";
 import { me } from "companion"
-require('env2')('.env');
+
 // Helper
 const MILLISECONDS_PER_MINUTE = 1000 * 60
 
@@ -35,7 +35,7 @@ function returnCoinMarketData(data){
 
 // Fetch the weather from OpenWeather
 function queryOpenWeather() {
-  fetch(process.env.weatherAPI)
+  fetch('https://api.openweathermap.org/data/2.5/weather?lat=28&lon=-82.5&units=imperial&APPID=aad128fbd5f807dbb322dffc897608f3')
   .then(function (response) {
       response.json()
       .then(function(data) {
